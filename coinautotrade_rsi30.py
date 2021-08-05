@@ -3,8 +3,8 @@ import pandas as pd
 import numpy as np
 import time
 
-access = "FfmG5GNkmBWZMpn9iCxdGyTf1kjPvfhtXJa5lHEW"
-secret = "Ntax3A0CLxRyIrMHaxwxI7jUlxyHwwofA8Fou6f3"
+access = "your access"
+secret = "your secret"
 
 def get_balance(ticker):
     balances = upbit.get_balances()
